@@ -34,29 +34,69 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">SZE</a>
+            <a class="nav-link rounded js-scroll-trigger" href="#sze">SZE</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">VIK</a>
+            <a class="nav-link rounded js-scroll-trigger" href="#vik">VIK</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Galeria</a>
+            <a class="nav-link rounded js-scroll-trigger" href="#">Galeria</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Blog</a>
+            <a class="nav-link rounded js-scroll-trigger" href="#">Blog</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Rolunk</a>
+            <a class="nav-link rounded js-scroll-trigger" href="#">Rolunk</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <header class="masthead text-center text-white">
-    <div class="masthead-content">
+  <header class="masthead text-center text-white header_bg">
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+      <div class="carousel-item active c_d">
+      <img class="img-fluid c_p_p" src="img/sze.jpg" alt="First slide">
+      <div class="carousel-caption d-md-block">
+        <h5>SZABADEGYETEM</h5>
+        <p>Augusztus 23.-an elkezdodik a buli, ne maradj le rola, regisztralj most!</p>
+      </div>
+      </div>
+      <div class="carousel-item c_d">
+      <img class="img-fluid c_p_p" src="img/02.jpg" alt="Second slide">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>SZABADEGYETEM</h5>
+        <p>Augusztus 23.-an elkezdodik a buli, ne maradj le rola, regisztralj most!</p>
+      </div>
+      </div>
+      <div class="carousel-item c_d">
+      <img class="img-fluid c_p_p" src="img/03.jpg" alt="Third slide">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>SZABADEGYETEM</h5>
+        <p>Augusztus 23.-an elkezdodik a buli, ne maradj le rola, regisztralj most!</p>
+      </div>
+      </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+  </a>
+  </div>
+
+    <!--<div class="masthead-content">
       <div class="container">
-        <h1 class="masthead-heading mb-0">One Page Wonder</h1>
+        <h1 class="masthead-heading mb-0">Udvozlunk a VIFO veboldalan</h1>
         <h2 class="masthead-subheading mb-0">Will Rock Your Socks Off</h2>
         <a href="#" class="btn btn-primary btn-xl rounded-pill mt-5">Learn More</a>
       </div>
@@ -64,7 +104,7 @@
     <div class="bg-circle-1 bg-circle"></div>
     <div class="bg-circle-2 bg-circle"></div>
     <div class="bg-circle-3 bg-circle"></div>
-    <div class="bg-circle-4 bg-circle"></div>
+    <div class="bg-circle-4 bg-circle"></div>-->
   </header>
 
   <section>
@@ -72,17 +112,18 @@
       <div class="row align-items-center">
         <div class="col-lg-6 order-lg-2">
           <div class="p-5">
-            <img class="img-fluid rounded-circle" src="img/01.jpg" alt="">
+            <img class="img-fluid " src="img/sze.jpg" alt="">
           </div>
         </div>
         <div class="col-lg-6 order-lg-1">
           <div class="p-5">
-            <h2 class="display-4">For those about to rock...</h2>
+            <h2 class="display-4">Vajdasági Szabadegyetem</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
           </div>
         </div>
       </div>
     </div>
+    <hr>
   </section>
 
   <section>
@@ -90,17 +131,18 @@
       <div class="row align-items-center">
         <div class="col-lg-6">
           <div class="p-5">
-            <img class="img-fluid rounded-circle" src="img/02.jpg" alt="">
+            <img class="img-fluid " src="img/vik.jpg" alt="">
           </div>
         </div>
         <div class="col-lg-6">
           <div class="p-5">
-            <h2 class="display-4">We salute you!</h2>
+            <h2 class="display-4">Vifó Ifjúsági Konferencia</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
           </div>
         </div>
       </div>
     </div>
+    <hr>
   </section>
 
   <section>
@@ -108,17 +150,37 @@
       <div class="row align-items-center">
         <div class="col-lg-6 order-lg-2">
           <div class="p-5">
-            <img class="img-fluid rounded-circle" src="img/03.jpg" alt="">
+            <img class="img-fluid " src="img/art.jpg" alt="">
           </div>
         </div>
         <div class="col-lg-6 order-lg-1">
           <div class="p-5">
-            <h2 class="display-4">Let there be rock!</h2>
+            <h2 class="display-4">Kiállni sosem ART</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
           </div>
         </div>
       </div>
     </div>
+    <hr>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div class="p-5">
+            <img class="img-fluid " src="img/vik.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="p-5">
+            <h2 class="display-4">Jótékonyság</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
   </section>
 
   <!-- Footer -->
